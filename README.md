@@ -30,3 +30,13 @@ This is the step of My bundler.
 ##8. Sell tokens at once from 21 wallets using bundle when you want
 
 ##9. Gathering Sol from 21 wallets you bundle buy and sell
+
+# Updated Raydium Bundler
+
+MVP version of previous bundler is creating the pool and bundle buy with same amount of sol.
+But it has drawbacks, cuz the balance of tokens from 21 wallets vary a lot because of bonding curve logic of Raydium.
+So, in updated version, I implemented presimulation of bundler wallets, so being estimating the amount of solana to buy from each wallet.
+And also amount of tokens in each wallet.
+And In updated version it is seperating the dev wallet and funding wallet for bundlers.
+By doing that, bundler wallets will not be detected as dev wallets.
+There are several updates in updated version of Raydium Bundler.
