@@ -7,7 +7,7 @@ You can contact me here if you have any problems with this repo then we can deci
 
 ## Overview
 
-Jito is supporting the bundle service that you can confirm 4 transactions (This is maximum from my experience) at once.
+Jito is supporting the bundle service that you can confirm 5 transactions (This is maximum from my experience) at once.
 
 It provides methods for creating, buying from 21 wallets, and selling tokens when you want.
 
